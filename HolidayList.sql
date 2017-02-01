@@ -128,3 +128,5 @@ SET @Result = cast(str(@Month)+'/'+ str((7+ @Weekday-datepart(dw,@StartDate))%7+
 
 RETURN @Result
 END
+
+//Test
